@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cuestionario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body class="background">
+    <div class="container-fluid">
+      <h1><strong>Registro</strong></h1>
+      <br>
+      <h2>Datos Personales</h2>
+      <br>
+      <form action="sign_up.php" method="post">
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" class="form-control" name="nombre" placeholder="Juan" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Apellido</label>
+          <input type="text" class="form-control" name="apellido" placeholder="Perez" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Usuario</label>
+          <input type="text" class="form-control" name="usuario" placeholder="Nombre de usuario" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Contraseña</label>
+          <input type="password" class="form-control" name="contrasena" placeholder="Contraseña" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Teléfono</label>
+          <input type="number" class="form-control" name="telefono" placeholder="5555555555" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>E-mail:</label>
+          <input type="email" class="form-control" name="mail" placeholder="zapato@zapato.com" required="true">
+        </div>
+        <br>
+        <h2>Dirección</h2>
+        <br>
+        <div class="form-group">
+          <label>Número</label>
+          <input type="number" class="form-control" name="numero" placeholder="30" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Calle</label>
+          <input type="text" class="form-control" name="calle" placeholder="Olivar" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Colonia</label>
+          <input type="text" class="form-control" name="colonia" placeholder="Vasco de Quiroga" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>CP</label>
+          <input type="number" class="form-control" name="cp" placeholder="01430" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Municipio</label>
+          <input type="text" class="form-control" name="municipio" placeholder="Álvaro Obregón" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Estado</label>
+          <input type="text" class="form-control" name="estado" placeholder="CDMX" required="true">
+        </div>
+        <br>
+        <h2>Dirección</h2>
+        <br>
+        <div class="form-group">
+          <label>Número de tarjeta</label>
+          <input type="number" class="form-control" name="notarjeta" placeholder="123456789" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>Fecha de vencimiento</label>
+          <input type="date" class="form-control" name="fechavencimiento" placeholder="2020-05-02" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+          <label>PIN</label>
+          <input type="text" class="form-control" name="pin" placeholder="1234" required="true">
+        </div>
+        <br><br>
+      	<button class="btn" type="sumbit">Enviar</button>
+    	 </form>
+      </div>
+  </body>
+</html>
