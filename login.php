@@ -19,7 +19,9 @@
 
       if(($userexistente == $user) and ($contraexistente == $password)){
         if($tipo=='Admin'){
-          header("location: AdminDashBoard.php");
+          header("location: admin_dashboard.php");
+          $_SESSION['username'] = $user;
+          $_SESSION['user_num'] = $no_cliente;
           $sesion_encontrada = 1;
         }
         else{
